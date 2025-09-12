@@ -10,4 +10,17 @@
 
 #GET http://localhost:4004/odata/v4/productshop/Product
 
-GET http://localhost:4004/odata/v4/productshop/Supplier
+#GET http://localhost:4004/odata/v4/productshop/Supplier
+
+POST http://localhost:4005/odata/v4/productshop/Product
+Content-Type: application/json
+
+{
+    "ID": 5,
+    "name": "Tesla",
+    "category": "Electric",
+    "stockcost_price": 75000,
+    "stockcost_stock": 7,
+    "emission": 0,
+    "rating": "A++"
+}
