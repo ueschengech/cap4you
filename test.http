@@ -1,1 +1,13 @@
-GET http://localhost:4004/odata/v4/product/printHelloWorld?input=Hello
+#GET http://localhost:4004/odata/v4/product/printHelloWorld?input=Hello
+#GET http://localhost:4004/odata/v4/product/addition?num1=4&num2=10
+
+#@protocol: 'rest'
+#GET http://localhost:4004/rest/product/addition?num1=4&num2=10
+
+
+#GET http://localhost:4004/rest/product/getCar?id=3
+
+
+#GET http://localhost:4004/odata/v4/productshop/Product
+
+GET http://localhost:4004/odata/v4/productshop/Supplier
